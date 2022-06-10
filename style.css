@@ -2,7 +2,7 @@ html,
 body {
   font-family: sans-serif;
   background-color: black;
-  background-image: url("christmas.jpeg");
+  background-image: url("assets/christmas.jpeg");
   background-position: center;
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
@@ -100,4 +100,41 @@ ul > li > ol > li {
 
 a:hover {
   font-size: larger;
+}
+
+#background img {
+  width: 15%;
+  position: absolute;
+}
+.gsu {
+  right: 500px;
+  top: 900px;
+}
+.gt {
+  right: 250px;
+  top: 1025px;
+}
+.gcsu {
+  right: 500px;
+  top: 1180px;
+}
+.python {
+  right: 500px;
+  top: 1500px;
+}
+.webdev {
+  right: 600px;
+  top: 1650px;
+}
+.react {
+  right: 300px;
+  top: 1550px;
+}
+.gym {
+  right: 400px;
+  top: 2200px;
+}
+.jetsons {
+  right: 500px;
+  top: 2500px;
 }
