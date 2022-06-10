@@ -14,7 +14,8 @@ body {
 }
 
 #header,
-#assignments {
+#assignments,
+#footer {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -72,16 +73,31 @@ td {
   flex-direction: column;
   line-height: 2;
   letter-spacing: 0.5;
+  margin-bottom: 50px;
 }
 
 .background-heading {
   text-align: center;
 }
 
-#schoolname {
+#listhead {
   font-weight: bold;
 }
 ul > li > ul > li,
-ol > li > ul > li {
+ol > li > ul > li,
+ul > li > ol > li {
   font-weight: normal;
+}
+
+.quote {
+  font-size: larger;
+}
+
+.special-word {
+  font-weight: bold;
+  color: red;
+}
+
+a:hover {
+  font-size: larger;
 }
