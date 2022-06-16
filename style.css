@@ -1,7 +1,6 @@
 html,
 body {
   font-family: sans-serif;
-  background-color: black;
   background-image: url("assets/christmas.jpeg");
   background-position: center;
   background-repeat: no-repeat; /* Do not repeat the image */
